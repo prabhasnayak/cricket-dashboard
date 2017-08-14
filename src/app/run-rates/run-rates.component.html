@@ -1,0 +1,4 @@
+<p *ngIf="!loading">
+	<chart [type]="type" [data]="data" [options]="options"></chart>
+</p>
+<p *ngIf="loading">Loading...</p>

@@ -1,0 +1,9 @@
+<p *ngIf="!loading">
+	<select [(ngModel)]="current_team">
+		<option *ngFor="let key of graphs | keys" [ngValue]="key">{{key}}</option>
+	</select>
+	<span *ngFor="let key of graphs | keys">
+		<chart *ngIf="key == current_team" [type]="graphs[key].type" [data]="graphs[key].data" [options]="graphs[key].options"></chart>
+	</span>	
+</p>
+<p *ngIf="loading">Loading...</p>

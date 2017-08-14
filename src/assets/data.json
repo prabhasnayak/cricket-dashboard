@@ -1,0 +1,305 @@
+{
+	"total_overs": 2,
+	"teams": {
+		"1": {
+			"id": 1,
+			"name": "Team 1",
+			"players": {
+				"1": {
+					"id": 1,
+					"name": "Player 1",
+					"type": "batsman",
+					"arm": "right"
+				},
+				"2": {
+					"id": 2,
+					"name": "Player 2",
+					"type": "batsman",
+					"arm": "left"
+				},
+				"3": {
+					"id": 3,
+					"name": "Player 3",
+					"type": "batsman",
+					"arm": "left"
+				},
+				"4": {
+					"id": 4,
+					"name": "Player 4",
+					"type": "batsman",
+					"arm": "right"
+				},
+				"5": {
+					"id": 5,
+					"name": "Player 5",
+					"type": "batsman",
+					"arm": "right"
+				},
+				"6": {
+					"id": 6,
+					"name": "Player 6",
+					"type": "wicket_keeper",
+					"captain": true,
+					"arm": "right"
+				},
+				"7": {
+					"id": 7,
+					"name": "Player 7",
+					"type": "bowler",
+					"arm": "left",
+					"bowling_type": "off_spin"
+				},
+				"8": {
+					"id": 8,
+					"name": "Player 8",
+					"type": "bowler",
+					"arm": "right",
+					"bowling_type": "leg_spin"
+				},
+				"9": {
+					"id": 9,
+					"name": "Player 9",
+					"type": "bowler",
+					"arm": "right",
+					"bowling_type": "medium"
+				},
+				"10": {
+					"id": 10,
+					"name": "Player 10",
+					"type": "bowler",
+					"arm": "left",
+					"bowling_type": "fast"
+				},
+				"11": {
+					"id": 11,
+					"name": "Player 11",
+					"type": "bowler",
+					"arm": "right",
+					"bowling_type": "fast"
+				}
+			}
+		},
+		"2": {
+			"id": 2,
+			"name": "Team 2",
+			"players": {
+				"1": {
+					"id": 1,
+					"name": "Player 1",
+					"type": "batsman",
+					"arm": "right"
+				},
+				"2": {
+					"id": 2,
+					"name": "Player 2",
+					"type": "batsman",
+					"arm": "left"
+				},
+				"3": {
+					"id": 3,
+					"name": "Player 3",
+					"type": "batsman",
+					"arm": "left"
+				},
+				"4": {
+					"id": 4,
+					"name": "Player 4",
+					"type": "batsman",
+					"arm": "right"
+				},
+				"5": {
+					"id": 5,
+					"name": "Player 5",
+					"type": "batsman",
+					"arm": "right"
+				},
+				"6": {
+					"id": 6,
+					"name": "Player 6",
+					"type": "wicket_keeper",
+					"captain": true,
+					"arm": "right"
+				},
+				"7": {
+					"id": 7,
+					"name": "Player 7",
+					"type": "bowler",
+					"arm": "left",
+					"bowling_type": "off_spin"
+				},
+				"8": {
+					"id": 8,
+					"name": "Player 8",
+					"type": "bowler",
+					"arm": "right",
+					"bowling_type": "leg_spin"
+				},
+				"9": {
+					"id": 9,
+					"name": "Player 9",
+					"type": "bowler",
+					"arm": "right",
+					"bowling_type": "medium"
+				},
+				"10": {
+					"id": 10,
+					"name": "Player 10",
+					"type": "bowler",
+					"arm": "left",
+					"bowling_type": "fast"
+				},
+				"11": {
+					"id": 11,
+					"name": "Player 11",
+					"type": "bowler",
+					"arm": "right",
+					"bowling_type": "fast"
+				}
+			}
+		}
+	},
+	"scores": {
+		"1": {
+			"over_1": {
+				"bowler_id": 1,
+				"detail": [{
+					"runs": 3,
+					"batsman_id": 1
+				},
+				{
+					"runs": 1,
+					"batsman_id": 2
+				},
+				{
+					"runs": 2,
+					"batsman_id": 1
+				},
+				{
+					"runs": 0,
+					"batsman_id": 1
+				},
+				{
+					"runs": 3,
+					"batsman_id": 2
+				},
+				{
+					"runs": 4,
+					"batsman_id": 2
+				}]
+			},
+			"over_2": {
+				"bowler_id": 2,
+				"detail": [{
+					"runs": 1,
+					"batsman_id": 1
+				},
+				{
+					"runs": 0,
+					"batsman_id": 2,
+					"out": true
+				},
+				{
+					"runs": 2,
+					"batsman_id": 3
+				},
+				{
+					"runs": 0,
+					"batsman_id": 3
+				},
+				{
+					"runs": 1,
+					"batsman_id": 1
+				},
+				{
+					"runs": 4,
+					"batsman_id": 3
+				}]
+			},
+			"over_3": {
+				"bowler_id": 1,
+				"detail": [{
+					"runs": 1,
+					"batsman_id": 1
+				},
+				{
+					"runs": 0,
+					"batsman_id": 2,
+					"out": true
+				},
+				{
+					"runs": 2,
+					"batsman_id": 3
+				},
+				{
+					"runs": 0,
+					"batsman_id": 3
+				},
+				{
+					"runs": 1,
+					"batsman_id": 1
+				},
+				{
+					"runs": 4,
+					"batsman_id": 3
+				}]
+			}	
+		},
+		"2": {
+			"over_1": {
+				"bowler_id": 1,
+				"detail": [{
+					"runs": 4,
+					"batsman_id": 1
+				},
+				{
+					"runs": 1,
+					"batsman_id": 2
+				},
+				{
+					"runs": 2,
+					"batsman_id": 1
+				},
+				{
+					"runs": 0,
+					"batsman_id": 1
+				},
+				{
+					"runs": 1,
+					"batsman_id": 2
+				},
+				{
+					"runs": 4,
+					"batsman_id": 2
+				}]
+			},
+			"over_2": {
+				"bowler_id": 2,
+				"detail": [{
+					"runs": 1,
+					"batsman_id": 1
+				},
+				{
+					"runs": 0,
+					"batsman_id": 2,
+					"out": true
+				},
+				{
+					"runs": 2,
+					"batsman_id": 3
+				},
+				{
+					"runs": 0,
+					"batsman_id": 3
+				},
+				{
+					"runs": 1,
+					"batsman_id": 1
+				},
+				{
+					"runs": 4,
+					"batsman_id": 3
+				}]
+			}	
+		}
+	}
+}
